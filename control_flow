@@ -1,0 +1,391 @@
+import marimo
+
+__generated_with = "0.23.4"
+app = marimo.App(width="medium")
+
+
+@app.cell
+def _():
+    import marimo as mo
+
+    return
+
+
+@app.cell
+def _():
+    print("Hey")
+    print("Ho")
+    print("😭")
+    return
+
+
+@app.cell
+def _():
+    if 1 < 2:
+        print("Yep")
+    return
+
+
+@app.cell
+def _():
+    1 < 2
+    return
+
+
+@app.cell
+def _():
+    1 == 2
+    return
+
+
+@app.cell
+def _():
+    1 in [2, 3, 4]
+    return
+
+
+@app.cell
+def _():
+    True and False
+    return
+
+
+@app.cell
+def _():
+    True or False
+    return
+
+
+@app.cell
+def _():
+    not False
+    return
+
+
+@app.cell
+def _():
+    not True
+    return
+
+
+@app.cell
+def _():
+    True and not False
+    return
+
+
+@app.cell
+def _():
+    True and (not False)
+    return
+
+
+@app.cell
+def _():
+    snake = [[0, 0], [0, 1], [0, 2]]
+
+    if snake:
+        print("Yep")
+    return (snake,)
+
+
+@app.cell
+def _(snake):
+    if bool(snake):
+        print("Yep")
+    return
+
+
+@app.cell
+def _():
+    bool([1, 2, 3])
+    return
+
+
+@app.cell
+def _():
+    bool([])
+    return
+
+
+@app.cell
+def _():
+    cond = False
+    if cond:
+        print("Yep")
+    else:
+        print("Nope")
+    return
+
+
+@app.cell
+def _():
+    size = 9
+
+    if size < 10:
+        print("small")
+    elif size < 80:
+        print("medium")
+    elif size < 120:
+        print("large")
+    else:
+        print("extra large")
+    return
+
+
+@app.cell
+def _():
+    length = None
+
+    if 2 > 1:
+        print("Yep")
+        length = 8
+    else:
+        length = 0
+
+    length
+    return
+
+
+@app.cell
+def _():
+    length2 = 8 if 2 > 1 else 0
+    length2
+    return
+
+
+@app.cell
+def _():
+    a = 3
+    while a >= 0:
+        print(a)
+        a = a - 1
+    print("C'est fini !")
+    return
+
+
+@app.cell
+def _():
+    for _v in [0, 1, 2]:
+        print(_v)
+
+    print(_v)
+    return
+
+
+@app.cell
+def _():
+    for _v in [4, 2, 1]:
+        print(_v)
+
+    print(_v)
+    return
+
+
+@app.cell
+def _():
+    range(10)
+    return
+
+
+@app.cell
+def _():
+    for _v in range(3):
+        print(_v)
+    return
+
+
+@app.cell
+def _():
+    for _v in "Hello":
+        print(_v)
+    return
+
+
+@app.cell
+def _():
+    # Bad 😠
+    s = "Hello"
+    for _index in range(len(s)):
+        print(s[_index])
+    return (s,)
+
+
+@app.cell
+def _():
+    return
+
+
+@app.cell
+def _(s):
+    # Bad 😠
+    for _index in range(len(s)):
+        print(_index, s[_index])
+    return
+
+
+@app.cell
+def _(s):
+    # Better 😎
+    for (_index, _v) in enumerate(s):
+        print(_index, _v)
+    return
+
+
+@app.cell
+def _():
+    for (_a, _b) in zip([3, 4, 5], [7, 8, 9]):
+        print(_a, _b)
+    return
+
+
+@app.cell
+def _():
+    for _i in range(10):
+        print(_i)
+        if _i == 5:
+            break
+        print("not over yet...")
+    return
+
+
+@app.cell
+def _():
+    for _i in range(10):
+        print(_i)
+        if _i == 5:
+            continue
+        print("not over yet...")
+    return
+
+
+@app.cell
+def _():
+    text = "Sébastien"
+    for c in text:
+        if c == "z":
+            found = True
+            break
+    else:
+        found = False
+        print("pas trouvé")
+    found    
+    return
+
+
+@app.cell
+def _():
+    def f(message):
+        for i in range(3):
+            print(message)
+
+    f("Hello")
+    f("world")
+    return
+
+
+@app.cell
+def _():
+    r = 1 / 0
+    r
+    return
+
+
+@app.cell
+def _():
+    num = 1
+    denom = 0
+
+    try:
+        ratio = num / denom
+    except ZeroDivisionError as e:
+        ratio = None
+        print("Euh, y'a un problème là ...")
+
+    ratio
+    return
+
+
+@app.cell
+def _():
+    _l = [1, 2, 3]
+    _l[42]
+    return
+
+
+@app.cell
+def _():
+    1 + "a"
+    return
+
+
+@app.cell
+def _():
+    int(2.0)
+    return
+
+
+@app.cell
+def _():
+    int(2.5)
+    return
+
+
+@app.cell
+def _():
+    int("1")
+    return
+
+
+@app.cell
+def _():
+    int("Tango Zoulou Bravo")
+    return
+
+
+@app.cell
+def _():
+    raise ZeroDivisionError("division by zero")
+    return
+
+
+@app.cell
+def _():
+    for _i in [1, 2, 3]:
+        pass
+    return
+
+
+@app.cell
+def _():
+    it = iter([1, 2, 3])
+    it
+    return (it,)
+
+
+@app.cell
+def _(it):
+    next(it)
+    return
+
+
+@app.cell
+def _(it):
+    next(it)
+    return
+
+
+@app.cell
+def _(it):
+    next(it)
+    return
+
+
+@app.cell
+def _(it):
+    next(it)
+    return
+
+
+if __name__ == "__main__":
+    app.run()

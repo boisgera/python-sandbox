@@ -1,0 +1,15 @@
+[workspace]
+authors = ["Sébastien Boisgérault <Sebastien.Boisgerault@gmail.com>"]
+channels = ["conda-forge"]
+name = "python-sandbox"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+dev = "marimo edit"
+
+[dependencies]
+python = ">=3.14.4,<3.15"
+
+[pypi-dependencies]
+marimo = ">=0.23.4, <0.24"

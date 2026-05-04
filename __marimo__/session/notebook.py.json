@@ -1,0 +1,834 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.23.4",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iUBn",
+      "code_hash": "faa59e128e8f9af915c885fd038c5d8e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Hey\nHo\n\ud83d\ude2d\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "yjkH",
+      "code_hash": "9bb0360f541f5098c3158015361a12e2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Yep\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "rGUZ",
+      "code_hash": "f323d485f8c376114c5845aa6d654283",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>True</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "WnHG",
+      "code_hash": "02807cc5d5fb5730ef6b41ba134456d1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>False</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "FSKW",
+      "code_hash": "49da1bda9dbf1cda7d7537b7d50a474e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>False</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "OyGp",
+      "code_hash": "5278d5c713182d198ed99f1a95bcecd6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>False</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "byqB",
+      "code_hash": "ea26f90475cd85de45c23353863ef5f9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>True</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "rMnK",
+      "code_hash": "20f88b6433a39d980b9fddac79257306",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>True</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "kisY",
+      "code_hash": "aa776626111bb130c0d432e084f400c1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>False</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "dqix",
+      "code_hash": "9ab0f24896f54904cfe7efb8df151104",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>True</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "OlLm",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "NnDd",
+      "code_hash": "66f8d6e955accfd7ad67a6c740a0a56e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Yep\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "gAtj",
+      "code_hash": "7dc5ba12d833fa7e97f79791dea78d6d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Yep\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "dIgd",
+      "code_hash": "5ae891c62043c17dca897f87be503a29",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>True</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "VXqi",
+      "code_hash": "e6217bf9e6566f48143eebb23cccb33a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>False</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xNMb",
+      "code_hash": "78c4f01ea581abf4de02ca58a0b58a97",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Nope\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "gyCT",
+      "code_hash": "e37de13bf4ce0ef7117282a5c460f8dc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "small\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "kyRB",
+      "code_hash": "4985bec4c60bb05c671e8fd62c08c99d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>8</pre>"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Yep\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "zQAH",
+      "code_hash": "3c74fb09925ee1d68b807a05952c2ed1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>8</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "uHCp",
+      "code_hash": "86a5f2e37c6a24ce37c9b7450f7a671a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "3\n2\n1\n0\nC'est fini !\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "cCWD",
+      "code_hash": "eb04ae92a93c536c8afd8a47949a677c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "0\n1\n2\n2\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "NVBj",
+      "code_hash": "3255d85017ee1b4cb89275ff5189cd32",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "4\n2\n1\n1\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "GZbF",
+      "code_hash": "c0529188c8558184af6d1e504f18e53b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>range(0, 10)</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xrlw",
+      "code_hash": "4fb78f2c48e7d41a280e79d34f139684",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "0\n1\n2\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "dTwU",
+      "code_hash": "a2c4e807e766cf7fe5fbbfbad412728e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "H\ne\nl\nl\no\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "EKai",
+      "code_hash": "1f89bfab90663740f207ae8445636313",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "H\ne\nl\nl\no\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "cWYG",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "pGIT",
+      "code_hash": "cf721a66f0d09b8a7ca05e136fc11d43",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "0 H\n1 e\n2 l\n3 l\n4 o\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "AYmx",
+      "code_hash": "2a8f4e49fd3b5f0ea74d0be7900f59fc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "0 H\n1 e\n2 l\n3 l\n4 o\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "ByKg",
+      "code_hash": "e70d3299a1b9c7a12017f71954a014c6",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "3 7\n4 8\n5 9\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "cWDZ",
+      "code_hash": "5695b93cc6854b0ea53da6b456456b25",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "0\nnot over yet...\n1\nnot over yet...\n2\nnot over yet...\n3\nnot over yet...\n4\nnot over yet...\n5\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "hNSd",
+      "code_hash": "9ff8c8731787120d4dd0bac98ba1aeaa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "0\nnot over yet...\n1\nnot over yet...\n2\nnot over yet...\n3\nnot over yet...\n4\nnot over yet...\n5\n6\nnot over yet...\n7\nnot over yet...\n8\nnot over yet...\n9\nnot over yet...\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "eeiO",
+      "code_hash": "7ec0ac83fa8e9b3ccbc512f4b0408441",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>False</pre>"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "pas trouv\u00e9\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "caVw",
+      "code_hash": "d47786cadeac85e4de12d3a5952dfeba",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Hello\nHello\nHello\nworld\nworld\nworld\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "FSZy",
+      "code_hash": "d35651bd0e037d245a0a69b8c84cb0f3",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "division by zero",
+          "traceback": null
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_187206/__marimo__cell_FSZy_.py&quot;</span>, line <span class=\"m\">1</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">r</span> <span class=\"o\">=</span> <span class=\"mi\">1</span> <span class=\"o\">/</span> <span class=\"mi\">0</span>\n<span class=\"w\">        </span><span class=\"pm\">~~^~~</span>\n<span class=\"gr\">ZeroDivisionError</span>: <span class=\"n\">division by zero</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "odSU",
+      "code_hash": "3bd65a4b0a67e87629c7732bff55517b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Euh, y'a un probl\u00e8me l\u00e0 ...\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "hkuj",
+      "code_hash": "5814f1433c145afb857f8230d4d23657",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "list index out of range",
+          "traceback": null
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_187206/__marimo__cell_hkuj_.py&quot;</span>, line <span class=\"m\">2</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"n\">_l</span><span class=\"p\">[</span><span class=\"mi\">42</span><span class=\"p\">]</span>\n<span class=\"w\">    </span><span class=\"pm\">~~^^^^</span>\n<span class=\"gr\">IndexError</span>: <span class=\"n\">list index out of range</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "yucH",
+      "code_hash": "76ebefed40a5eba69e61870c1dbb5cbc",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "unsupported operand type(s) for +: 'int' and 'str'",
+          "traceback": null
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_187206/__marimo__cell_yucH_.py&quot;</span>, line <span class=\"m\">1</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"mi\">1</span> <span class=\"o\">+</span> <span class=\"s2\">&quot;a&quot;</span>\n<span class=\"w\">    </span><span class=\"pm\">~~^~~~~</span>\n<span class=\"gr\">TypeError</span>: <span class=\"n\">unsupported operand type(s) for +: &#39;int&#39; and &#39;str&#39;</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "LrLQ",
+      "code_hash": "33cd1d926b33bfc627b7e5d771d9eab3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>2</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "tSEb",
+      "code_hash": "29cbbff751d61eaaa1fd5c0451b97286",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>2</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nDPI",
+      "code_hash": "39bce9525d4867175288985629dbfea5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>1</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "KUyh",
+      "code_hash": "383abd385f89f8b835213defe53ca0ee",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "invalid literal for int() with base 10: 'Tango Zoulou Bravo'",
+          "traceback": null
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_187206/__marimo__cell_KUyh_.py&quot;</span>, line <span class=\"m\">1</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"nb\">int</span><span class=\"p\">(</span><span class=\"s2\">&quot;Tango Zoulou Bravo&quot;</span><span class=\"p\">)</span>\n<span class=\"w\">    </span><span class=\"pm\">~~~^^^^^^^^^^^^^^^^^^^^^^</span>\n<span class=\"gr\">ValueError</span>: <span class=\"n\">invalid literal for int() with base 10: &#39;Tango Zoulou Bravo&#39;</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "rMmY",
+      "code_hash": "95380dc0caf4628d7d10668443c165c9",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "division by zero",
+          "traceback": null
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_187206/__marimo__cell_rMmY_.py&quot;</span>, line <span class=\"m\">1</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"k\">raise</span> <span class=\"ne\">ZeroDivisionError</span><span class=\"p\">(</span><span class=\"s2\">&quot;division by zero&quot;</span><span class=\"p\">)</span>\n<span class=\"gr\">ZeroDivisionError</span>: <span class=\"n\">division by zero</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    },
+    {
+      "id": "sQqn",
+      "code_hash": "7e81c471fa413264ffc052a512563d36",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "dVnw",
+      "code_hash": "7e8bee0e6566fc969db99d8012a3086f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>&lt;list_iterator object at 0x73245cdb1060&gt;</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qSYy",
+      "code_hash": "7a02286fc324cb1dc945d3ceb7292859",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>1</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PNSY",
+      "code_hash": "7a02286fc324cb1dc945d3ceb7292859",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>2</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RXma",
+      "code_hash": "7a02286fc324cb1dc945d3ceb7292859",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>3</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "McZV",
+      "code_hash": "7a02286fc324cb1dc945d3ceb7292859",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "exception",
+          "evalue": "This cell raised an exception: StopIteration",
+          "traceback": null
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "<span class=\"codehilite\"><div class=\"highlight\"><pre><span></span><span class=\"gt\">Traceback (most recent call last):</span>\n  File <span class=\"nb\">&quot;/tmp/marimo_187206/__marimo__cell_McZV_.py&quot;</span>, line <span class=\"m\">1</span>, in <span class=\"n\">&lt;module&gt;</span>\n<span class=\"w\">    </span><span class=\"nb\">next</span><span class=\"p\">(</span><span class=\"n\">it</span><span class=\"p\">)</span>\n<span class=\"w\">    </span><span class=\"pm\">~~~~^^^^</span>\n<span class=\"gr\">StopIteration</span>\n</pre></div>\n</span>",
+          "mimetype": "application/vnd.marimo+traceback"
+        }
+      ]
+    }
+  ]
+}
