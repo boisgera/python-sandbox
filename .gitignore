@@ -2,5 +2,8 @@
 .pixi/*
 !.pixi/config.toml
 
+# Python
+__pycache__
+
 # marimo
 __marimo__
